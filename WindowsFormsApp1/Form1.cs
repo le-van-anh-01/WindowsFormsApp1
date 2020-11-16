@@ -19,7 +19,8 @@ namespace WindowsFormsApp1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            textBox1.Text =  ClassLibrary1.Class1.GetMessage();
+
+            textBox1.Text =  ClassLibrary1.Class1.GetMessage() + "abcd";
         }
     }
 }
